@@ -1,12 +1,34 @@
 import React from 'react'
 import {Row,Col} from 'reactstrap'
+import neo from './Images/Artboard 1@4x.png'
+import Friday from './Images/Artboard 1@4xfriday2.png'
+import Sunday from './Images/Artboard 1@4xsunday 2.png'
+import sun from './Images/Artboard 1@4xsunday.png'
+import Monday from './Images/Artboard 1@4xmonday.png'
 function Publications() {
     return (
         <div>
-            <div style={{paddingLeft:'70px',backgroundColor:'black'}}>
-               <h1 style={{color:'white'}}>Publications</h1>
+            <div className="header">
+               <h1 >Publications</h1>
             </div>
-            <div style={{paddingLeft:'30px'}}>
+            <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
+                <Col md={2} className="images">
+                <img src={neo}/>
+                </Col>
+                <Col md={2} className="images ">
+                <img src={sun}/>
+                </Col>
+                <Col md={2} className="images ">
+                <img src={Friday}/>
+                </Col>
+                <Col md={2} className="images ">
+                <img src={Monday}/>
+                </Col>
+                <Col md={2} className="images ">
+                <img src={Sunday}/>
+                </Col>
+                </Row>
+            <div className="content">
                 <h2><b>Neoteric News</b></h2>
                 <h5>(Since March 26, 2020)</h5>
                 <br />
@@ -16,7 +38,7 @@ this fast changing exciting industry, Neoteric News brings the latest developmen
 but also curates and gets you the most relevant news and analysis in the oil and gas industries.</h5>
             </div>
             <br /><br />
-            <div style={{paddingLeft:'30px'}}>
+            <div className="content">
                 <h2><b>Fossiliferous Friday</b></h2>
                 <h5>(Since March 27, 2020)</h5>
                 <br />
@@ -25,7 +47,7 @@ still depend on fossil fuel. As it's well stated, SPE AUACT Student Chapter find
 fossils and geological facts through a periodical literature called "Fossiliferous Friday" .</h5>
             </div>
             <br /><br />
-            <div style={{paddingLeft:'30px'}}>
+            <div className="content">
                 <h2><b>Safety Sunday</b></h2>
                 <h5>(From March 29, 2020 to May 31, 2020)</h5>
                 <br />
@@ -36,7 +58,7 @@ procedures to be followed by analysing various disasters of natural gas industri
 periodical edition was ceased on 31st May, 2020 and it paved way for the other Weekly, "Subsurface Sunday"</h5>
             </div>
             <br /><br />
-            <div style={{paddingLeft:'30px'}}>
+            <div className="content">
                 <h2><b>Machinery Monday</b></h2>
                 <h5>(Since March 30, 2020)</h5>
                 <br />
@@ -46,7 +68,7 @@ share the information on machineries that rule the drilling, production, reservo
 "Machinery Monday".</h5>
             </div>
             <br /><br />
-            <div style={{paddingLeft:'30px'}}>
+            <div className="content">
                 <h2><b>Subsurface Sunday</b></h2>
                 <h5>(Since June 07, 2020)</h5>
                 <br />
@@ -60,7 +82,7 @@ engineering and enhances the skills in solving reservoir engineering problems an
             <h2 style={{paddingLeft:'15%',paddingRight:'15%'}}><b>All our periodicals will be published in our Social Media
 Platforms viz. Facebook, Instagram, LinkedIn and Twitter.</b></h2>
             <br />
-            <div style={{paddingLeft:'30px'}}>
+            <div className="content">
             <h3 ><b>Do follow us:</b></h3>
             <Row style={{margin:'0px'}}>
                 <Col md={3}>
