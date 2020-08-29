@@ -18,10 +18,10 @@ function Core() {
                <h1 >Core Commitee</h1>
             </div>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
-                <Col md={2} className="images offset-md-1">
+                <Col md={2} className="images">
                   <img src={kalai}/>
                 </Col>
-                <Col md={3} className="images ">
+                <Col md={2} className="images">
                 <span><b>Dr. S. Kalaiselvam
                       <br />
                       Head of the Department
@@ -34,10 +34,11 @@ function Core() {
                       E-mail: kalai@annauniv.edu
                       </span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <span><div className="line"></div></span>
+                <Col md={2} className="images">
                   <img src={priya}/>
                 </Col>
-                <Col md={3} className="images ">
+                <Col md={3} className="images">
                 <span><b>Dr. J. Jayapriya
                       <br />
                       Faculty Advisor

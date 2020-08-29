@@ -15,3 +15,8 @@
 .icon-background{
   border: red;
 }
+.line{
+ 
+    border-left: 2px solid gray;
+    height: 150px;
+}
