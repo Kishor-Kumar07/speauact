@@ -9,7 +9,7 @@ import petrovision from './Images/Path 9.png'
             <div className="header">
                <h1>Petrovision</h1>
             </div>
-            <Row>
+            <Row style={{margin:'0px'}}>
                 <Col md={4} style={{padding:"80px"}}>
                     <img src={petrovision}  width="40%"/>
                 </Col>

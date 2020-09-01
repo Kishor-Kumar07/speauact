@@ -2,7 +2,6 @@ import React from 'react'
 import {Row,Col} from 'reactstrap'
 import actech from './Images/Mask Group 9.png'
 
-
  function Aboutus() {
     return (
         <div>
@@ -10,8 +9,8 @@ import actech from './Images/Mask Group 9.png'
                <h1>About US</h1>
             </div>
 
-            <Row>
-            <img src={actech} width="40%"/>
+            <Row style={{margin:'0px'}}>
+            <img src={actech} width="35%"/>
             <Col style={{"fontSize":"28px"}}>
                 <br/>
                 <p>

@@ -2,18 +2,17 @@ import React from 'react'
 import {Row,Col} from 'reactstrap'
 import mission from './Images/14111@2x.png'
 
-
  function MissionandVision() {
     return (
         <div>
             <div className="header">
                <h1>Mission and Vision</h1>
             </div>
-            <Row>
-            <img src={mission} width="40%"/>
-            <Col style={{"fontSize":"21px"}}>
+            <Row style={{margin:'0px'}}>
+            <img src={mission} width="35%"/>
+            <Col >
                 <br/>
-                <p>
+                <span>
                 AC Tech, Anna University SPE Student Chapter aspires to open doors to each
                 affiliate, for individual and professional advancements through an amalgamation of
                 events round the year including the Series of Distinguished Lectures by the
@@ -36,7 +35,7 @@ import mission from './Images/14111@2x.png'
                 <br/><br/>
                 We look forward to your support and participation in the entirety of our endeavours.
                 <br/><br/>
-                </p>
+                </span>
              </Col>
             </Row>
 
