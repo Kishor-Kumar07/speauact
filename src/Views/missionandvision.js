@@ -4,7 +4,7 @@ import mission from '../Images/14111@2x.png'
 
  function MissionandVision() {
     return (
-        <div>
+        <div id="mission">
             <div className="header">
                <h1>Mission and Vision</h1>
             </div>

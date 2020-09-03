@@ -4,7 +4,7 @@ import actech from '../Images/Mask Group 9.png'
 
  function Aboutus() {
     return (
-        <div>
+        <section id="aboutus">
             <div className="header">
                <h1>About US</h1>
             </div>
@@ -31,7 +31,7 @@ import actech from '../Images/Mask Group 9.png'
                 </p>
             </Col>
             </Row>  
-        </div>
+        </section>
     )
 }
 export default Aboutus;

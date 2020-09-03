@@ -39,14 +39,12 @@ class App extends Component{
     this.setState({open:prop}) 
   }
   
-  handleDrop=(e)=>{ 
-    this.setState({drop:!this.state.drop}) 
-  }
 
   render(){
     return(
-      <div >
+      <div id="home">
       <div className="bg">
+      
             <Row style={{margin:'0px'}}>
                 <Col md={5}>
 
@@ -69,9 +67,7 @@ class App extends Component{
             <Col md={1}>
             <Link to="contact" smooth={true} duration={1000}>Contact Us</Link>
             </Col>
-            <Menu isOpen={this.state.open} onOpen={()=>this.handleOpen(true)} onClose={()=>this.handleOpen(false)} right>
-        
-            </Menu>
+
             </Row>
             <br />
             <Row style={{margin:'0px'}}>

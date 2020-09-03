@@ -13,7 +13,7 @@ import viswa from '../Images/5.png'
 import benjamin from '../Images/9.png'
 function Core() {
     return (
-        <div>
+        <div id="core">
             <div className="header">
                <h1 >Core Commitee</h1>
             </div>

@@ -3,7 +3,7 @@ import {Row,Col} from 'reactstrap'
 import '../Styles/App.css';
 function Contact() {
     return (
-        <div>
+        <div id="contactus">
             <div className="header">
                <h1 >Contact Us</h1>
             </div>

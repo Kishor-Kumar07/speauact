@@ -7,7 +7,7 @@ import sun from '../Images/Artboard 1@4xsunday.png'
 import Monday from '../Images/Artboard 1@4xmonday.png'
 function Publications() {
     return (
-        <div>
+        <div id="publications">
             <div className="header">
                <h1 >Publications</h1>
             </div>

@@ -301,13 +301,14 @@ body {
   width: 24px;
 }
 
+
 .bm-cross {
-  background: #bdc3c7;
+  background: black;
 }
 
 
 .bm-menu {
-  background: #373a47;
+  background: white;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -322,4 +323,29 @@ body {
 
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.cd-accordion__input { 
+  position: absolute;
+  opacity: 0;
+}
+
+.cd-accordion__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: var(--space-sm) var(--space-md);
+ 
+}
+
+.cd-accordion__sub {
+  display: none; 
+}
+
+.cd-accordion__input:checked ~ .cd-accordion__sub {
+  display: initial;
+}
+
+.hr{
+  background: black;
 }

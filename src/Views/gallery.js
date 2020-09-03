@@ -5,7 +5,7 @@ import mission from '../Images/14111@2x.png'
 
  function Gallery() {
     return (
-        <div>
+        <div id="gallery">
             <div className="header">
                <h1>Gallery</h1>
             </div>
