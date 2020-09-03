@@ -10,9 +10,6 @@ import Mission from './missionandvision'
 import Petrovision from './petrovision'
 import Gallery from './gallery'
 import Event from './eventpartners'
-import Header from './header'
-import { NavLink as RRNavLink } from 'react-router-dom';
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import sir1 from '../Images/IMG_0106.png'
@@ -23,7 +20,6 @@ import { Row,Col,Button, Navbar,Nav,NavItem,NavLink,Input } from 'reactstrap'
 import {Link} from 'react-scroll'
 import '../Styles/style.css' 
 
-import {slide as Menu} from 'react-burger-menu'
 
 class App extends Component{
   constructor(props){

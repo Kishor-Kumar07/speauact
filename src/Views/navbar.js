@@ -46,7 +46,7 @@ handleOpen=(prop)=>{
                   </li>
               </ul> */}
               <hr className="hr"/>
-          <div className="links"><Link activeClass="active" className='menu-item' style={{"color":"black"}} smooth={true} duration={1000} to="publications">Publications</Link></div>
+          <div className="links"><Link activeClass="active"  className='menu-item'  smooth={true} duration={1000} to="publications">Publications</Link></div>
           <hr className="hr"/>
           <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="gallery">Gallery</Link></div>
           <hr className="hr"/>
