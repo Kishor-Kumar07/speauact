@@ -23,11 +23,11 @@ handleOpen=(prop)=>{
       <div>
         <Menu  right>
           <hr className="hr"/>
-          <Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="home">Home</Link>
+          <div className="links"><Link style={{"color":"black"}} activeClass="active"  smooth={true} duration={1000} to="home" >Home</Link></div>
           <hr className="hr"/>
-          <Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="mission">Mission and Vision</Link>
+          <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="mission">Mission and Vision</Link></div>
           <hr className="hr"/>
-          <Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="core">Core Commitee</Link>
+          <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="core">Core Commitee</Link></div>
           <hr className="hr"/>
             {/* <ul style={{"list-style-type": "none"}} class="cd-accordion margin-top-lg margin-bottom-lg" >
               <li class="cd-accordion__item cd-accordion__item--has-children">
@@ -46,13 +46,13 @@ handleOpen=(prop)=>{
                   </li>
               </ul> */}
               <hr className="hr"/>
-          <Link activeClass="active" className='menu-item' style={{"color":"black"}} smooth={true} duration={1000} to="publications">Publications</Link>
+          <div className="links"><Link activeClass="active" className='menu-item' style={{"color":"black"}} smooth={true} duration={1000} to="publications">Publications</Link></div>
           <hr className="hr"/>
-          <Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="gallery">Gallery</Link>
+          <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="gallery">Gallery</Link></div>
           <hr className="hr"/>
-          <Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="map">Map</Link>
+          <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="map">Map</Link></div>
           <hr className="hr"/>
-          <Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="contactus">Contact Us</Link>
+          <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="contactus">Contact Us</Link></div>
           <hr className="hr"/>
         </Menu>
       </div>
