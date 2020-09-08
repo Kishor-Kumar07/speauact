@@ -1,27 +1,53 @@
-import React, { Component } from "react";
-import {slide as Menu} from 'react-burger-menu'
-import { Form,Container,Row,Col,Input,Button,Label, FormFeedback, NavLink } from 'reactstrap';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import ListSubheader from '@material-ui/core/ListSubheader';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Collapse from '@material-ui/core/Collapse';
+import InboxIcon from '@material-ui/icons/MoveToInbox';
+import DraftsIcon from '@material-ui/icons/Drafts';
+import SendIcon from '@material-ui/icons/Send';
+import ExpandLess from '@material-ui/icons/ExpandLess';
+import ExpandMore from '@material-ui/icons/ExpandMore';
+import StarBorder from '@material-ui/icons/StarBorder';
+import {slide as Menus} from 'react-burger-menu'
+import { Form,Container,Row,Col,Input,Label, FormFeedback, NavLink } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import '../Styles/style.css'
 import {Accordion,Card} from 'react-bootstrap'
 import {Link} from 'react-scroll'
+import Menu, {
+  Button, 
+  Dropdown, 
+  Separator, 
+  DropdownItem, 
+} from "@kenshooui/react-menu";
+ 
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
+  },
+  nested: {
+    paddingLeft: theme.spacing(4),
+  },
+}));
 
-class Header extends Component {
-constructor(props){
-  super(props)
-  this.state={ 
-    open:false
-  } 
-  this.handleOpen = this.handleOpen.bind(this);
-}
-handleOpen=(prop)=>{ 
-  this.setState({open:prop}) 
-}
-  render(){
-    return (
-      <div>
-        <Menu  right>
+export default function NestedList() {
+  const classes = useStyles();
+  const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
+  return (
+    
+    <Menus  right>
           <hr className="hr"/>
           <div className="links"><Link style={{"color":"black"}} activeClass="active"  smooth={true} duration={1000} to="home" >Home</Link></div>
           <hr className="hr"/>
@@ -29,23 +55,40 @@ handleOpen=(prop)=>{
           <hr className="hr"/>
           <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="core">Core Commitee</Link></div>
           <hr className="hr"/>
-            {/* <ul style={{"list-style-type": "none"}} class="cd-accordion margin-top-lg margin-bottom-lg" >
-              <li class="cd-accordion__item cd-accordion__item--has-children">
-                <input class="cd-accordion__input" type="checkbox" name ="group-1" id="group-1"/>
-                <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-1"><span>Group 1</span></label>
-                    <ul class="cd-accordion__sub cd-accordion__sub--l2">
-                    <Link activeClass="active" spy={true} smooth={true} duration={1000} to="mission">Mission and Vision</Link><br/>
-                    <hr className="hr"/>
-                    <Link activeClass="active" spy={true} smooth={true} duration={1000} to="core">Core Commitee</Link><br/>
-                    <hr className="hr"/>
-                    <Link activeClass="active" spy={true} smooth={true} duration={1000} to="gallery">Gallery</Link><br/>
-                    <hr className="hr"/>
-                    <Link activeClass="active" spy={true} smooth={true} duration={1000} to="contactus">Contact Us</Link>
-                    <hr className="hr"/>
-                    </ul>
-                  </li>
-              </ul> */}
-              <hr className="hr"/>
+    <List
+     
+      aria-labelledby="nested-list-subheader"
+      subheader={
+        <ListSubheader component="div" id="nested-list-subheader">
+        
+        </ListSubheader>
+      }
+      className={classes.root}
+    >
+     
+      <ListItem button onClick={handleClick}>
+        
+        <ListItemText primary="Events" />
+        {open ? <ExpandMore /> : <ExpandLess/>}
+      </ListItem>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItem button className={classes.nested}>
+            <ListItemIcon>
+              <StarBorder />
+            </ListItemIcon>
+            <ListItemText primary="Starred" />
+          </ListItem>
+          <ListItem button className={classes.nested}>
+            <ListItemIcon>
+              <StarBorder />
+            </ListItemIcon>
+            <ListItemText primary="Starred" />
+          </ListItem>
+        </List>
+      </Collapse>
+    </List>
+    <hr className="hr"/>
           <div className="links"><Link activeClass="active"  className='menu-item'  smooth={true} duration={1000} to="publications">Publications</Link></div>
           <hr className="hr"/>
           <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="gallery">Gallery</Link></div>
@@ -54,10 +97,7 @@ handleOpen=(prop)=>{
           <hr className="hr"/>
           <div className="links"><Link activeClass="active" style={{"color":"black"}} smooth={true} duration={1000} to="contactus">Contact Us</Link></div>
           <hr className="hr"/>
-        </Menu>
-      </div>
-    );
-  }
+    </Menus>
+    
+  );
 }
-
-export default Header;

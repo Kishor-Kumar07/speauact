@@ -11,14 +11,16 @@ import srini from '../Images/Mask Group 6.png'
 import gunalan from '../Images/Mask Group 7.png'
 import viswa from '../Images/5.png'
 import benjamin from '../Images/9.png'
+import '../Styles/core.css'
+
 function Core() {
     return (
         <div id="core">
-            <div className="header">
-               <h1 >Core Commitee</h1>
+            <div>
+               <h1 className="header">Core Commitee</h1>
             </div>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
-                <Col md={2} className="images">
+                <Col md={2} className="images img">
                   <img src={kalai}/>
                 </Col>
                 <Col md={3} className="images">

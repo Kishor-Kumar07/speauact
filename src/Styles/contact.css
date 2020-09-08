@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    
+  }
+
+  .header
+{
+  padding-left: 70px;
+  background-color: black;
+  color: white;
+}
+
+.content{
+    padding-left: 30px;
+  }
+
+.images{
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+  }

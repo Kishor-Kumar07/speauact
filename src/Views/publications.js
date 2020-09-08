@@ -5,6 +5,7 @@ import Friday from '../Images/Artboard 1@4xfriday2.png'
 import Sunday from '../Images/Artboard 1@4xsunday 2.png'
 import sun from '../Images/Artboard 1@4xsunday.png'
 import Monday from '../Images/Artboard 1@4xmonday.png'
+import '../Styles/publications.css'
 function Publications() {
     return (
         <div id="publications">

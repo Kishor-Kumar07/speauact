@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../Styles/App.css';
 import Aboutus from './aboutus'
 import Publications from './publications'
 import Sponsor from './sponsors'
@@ -45,22 +44,20 @@ class App extends Component{
                 <Col md={5}>
 
                 </Col>
-                <Col md={7}>
-                  <h2>AC Tech, Anna University SPE Student Chapter</h2>
-                </Col>
+               
             </Row>
             <br />
-            <Row style={{margin:'0px'}}>
-            <Col md={2} className="offset-md-5">
+            <Row style={{margin:'0px'}} >
+            <Col md={2} className="offset-md-5 linked">
             <Link to="aboutus" smooth={true} duration={1000}>Mission And Vision</Link>
             </Col>
-            <Col md={2}>
+            <Col md={2} className="linked">
             <Link to="core" smooth={true} duration={1000}>Core Committee</Link>
             </Col>
-            <Col md={1}>
+            <Col md={1} className="linked">
             <Link to="gallery" smooth={true} duration={1000}>Gallery</Link>
             </Col>
-            <Col md={1}>
+            <Col md={1} className="linked">
             <Link to="contact" smooth={true} duration={1000}>Contact Us</Link>
             </Col>
 
@@ -68,7 +65,7 @@ class App extends Component{
             <br />
             <Row style={{margin:'0px'}}>
             <Col md={7} className="offset-md-5">
-            <Carousel enableAutoPlay={false} showThumbs={false}>
+            <Carousel className="carousel" enableAutoPlay={false} showThumbs={false}>
              <div>
                  <img src={sir1} />
             </div>
@@ -84,8 +81,8 @@ class App extends Component{
 
         </div>
       <div id="aboutus"><Aboutus/></div>
-      <Mission/>
-      <div id="core"><Core/></div>
+       {/* <Mission/> */}
+      {/* <div id="core"><Core/></div>
       <Petrovision/>
       <Publications/>
       <div id="gallery"><Gallery/></div>
@@ -93,6 +90,7 @@ class App extends Component{
       <Sponsor />
       <Event/>
       <div id="contact"><Contact/></div>
+      */}
       
     </div>
     

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Row,Col} from 'reactstrap'
-import '../Styles/App.css';
+import '../Styles/contact.css';
 function Contact() {
     return (
         <div id="contactus">

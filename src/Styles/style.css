@@ -1,40 +1,16 @@
 
-
-@media(min-width:320px){
-  
-}
- 
-
-
-
-@media(min-width:576px){
-  
-}
-
-@media(min-width:768px){
-  
-
-}
-
-@media(min-width:992px){
- 
-}
-
-html,
-body {
+html{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#App {
-  font-family: sans-serif;
-  height: 100vh;
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  position: relative;
+  padding: 0%;
 }
-
-#page-wrap {
-  text-align: center;
-  overflow: auto;
-}
-
 .bm-item {
   display: inline-block;
   text-decoration: none;
@@ -47,14 +23,6 @@ body {
 
 
 
-.bm-burger-button {
-  position: absolute;
-  width: 36px;
-  height: 30px;
-  left: 1406px;
-  top: 66px;
-  
-}
 
 .bm-burger-bars {
   background: #373a47;
@@ -112,4 +80,280 @@ body {
 
 .hr{
   background: black;
+}
+
+  
+@media(min-width:320px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 265px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+
+}
+
+@media(min-width:360px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 305px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:375px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 320px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:400px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 345px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+
+}
+
+@media(min-width:425px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 370px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:450px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 395px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:500px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 445px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:576px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 520px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:700px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 645px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+
+@media(min-width:768px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 710px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:775px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 720px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:825px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 770px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:900px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 845px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:1024px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 960px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:1200px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 1145px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width:1440px){
+  .linked{
+    display:block
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 1380px;
+    top: 26px;
+  }
+  .carousel{
+    padding-top: 20px;
+  }
 }

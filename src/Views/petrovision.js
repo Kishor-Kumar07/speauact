@@ -1,19 +1,22 @@
 import React from 'react'
 import {Row,Col} from 'reactstrap'
 import petrovision from '../Images/Path 9.png'
+import '../Styles/petrovision.css'
 
 
  function Petrovision() {
     return (
         <div style={{background:"black"}}>
-            <div className="header">
-               <h1>Petrovision</h1>
-            </div>
             <Row style={{margin:'0px'}}>
-                <Col md={4} style={{padding:"80px"}}>
+                <Col md={12} className="header">
+                    <h1>Petrovision</h1>
+                </Col>
+            </Row>
+            <Row style={{margin:'0px'}}>
+                <Col sm={12} md={6} style={{padding:"80px"}}>
                     <img src={petrovision}  width="40%"/>
                 </Col>
-                <Col style={{"fontSize":"21px",'color':"lightblue","fontSize":"29px"}}>
+                <Col sm={12} md={6} style={{"fontSize":"21px",'color':"lightblue","fontSize":"29px"}}>
                     <p><span className="offset-md-2" style={{'fontSize':'90px'}}>P</span>etrovision is a National Level Technical
                     Symposium conducted <b>by AC Tech, Anna University SPE
                     Student Chapter, Department of Applied Science and

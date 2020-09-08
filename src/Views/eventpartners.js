@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row,Col} from 'reactstrap'
 import mission from '../Images/14111@2x.png'
+import '../Styles/events.css'
 
 
  function Event() {

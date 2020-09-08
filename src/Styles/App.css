@@ -1,17 +1,5 @@
-.content{
-  padding-left: 30px;
-}
-.header
-{
-  padding-left: 70px;
-  background-color: black;
-  color: white;
-}
-.images{
-  padding-top: 20px;
-  align-items: center;
-  align-content: center;
-}
+
+
 .icon-background{
   border: red;
 }
@@ -21,9 +9,36 @@
     height: 150px;
 }
 .bg {
-  background-image: url("../Images/Mask Group 8.png");
+  background-image: url("../Images/Mask\ Group\ 8@2x.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   }
+
+  
+@media(min-width:320px){
+  .linked{
+    display: none;
+  }
+}
+
+@media(min-width:425px){
+  .linked{
+    display: none;
+  }
+}
+
+
+@media(min-width:576px){
+  .linked{
+    display: none;
+  }
+}
+
+
+@media(min-width:926px){
+  .linked{
+    display: block;
+  }
+}
