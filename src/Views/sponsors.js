@@ -11,14 +11,17 @@ import oiltech from '../Images/289.png'
 import redhat from '../Images/rzvaammdxaa9vhgwuiot.png'
 import petro from '../Images/unnamed.png'
 import cub from '../Images/logo.png'
+import '../Styles/sponsors.css'
  function Sponsors() {
     return (
         <div>
-            <div className="header">
-               <h1 >Our Sponsors</h1>
-            </div>
+            <Row style={{margin:'0px'}}>
+                <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"black"}}>
+                    <h1 className="sponsors">Our Sponsors</h1>
+               </Col>
+            </Row>
             <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
-                <Col md={1} className="images " >
+                <Col md={1} className="images" >
                     <img src={ongc} />
                 </Col>
                 <Col md={1} className="images offset-md-1" >

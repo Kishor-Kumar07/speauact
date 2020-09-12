@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+  }
+
+  @media(min-width:320px){
+    .social-title{
+      font-size: 30px;
+    }
+    .detail-head1{
+        font-size: 30px;
+      }
+    .detail-head2{
+      font-size: 30px;
+    }
+  }
+
+  @media(min-width:768px){
+    .social-title{
+        font-size: 60px;
+      }
+      .detail-spe{
+        margin-left: 30px;
+        margin-right: 20px;
+      }
+      .detail-green{
+        margin-left: 20px;
+      }
+      .detail-head1{
+          font-size: 30px;
+        }
+      .detail-head2{
+        font-size: 30px;
+      }
+      .vertical-line{
+        border-left: 2px solid white;
+        height: 410px;
+        margin-left: 10px;
+        padding-left: 15px;
+      }
+    }
+
+    @media(min-width:850px){
+          .vertical-line{
+            border-left: 2px solid white;
+            height: 380px;
+            margin-left: 10px;
+            padding-left: 15px;
+          }
+        }
+
+    @media(min-width:950px){
+          .vertical-line{
+            border-left: 2px solid white;
+            height: 340px;
+            margin-left: 10px;
+            padding-left: 15px;
+          }
+        }
+
+    @media(min-width:1024px){
+        .social-title{
+            font-size: 60px;
+          }
+          .detail-spe{
+            margin-left: 30px;
+            margin-right: 40px;
+          }
+          .detail-head1{
+              font-size: 30px;
+            }
+          .detail-head2{
+            font-size: 30px;
+          }
+          .vertical-line{
+            border-left: 2px solid white;
+            height: 310px;
+            margin-left: 10px;
+            padding-left: 15px;
+          }
+        }
+
+    @media(min-width:1200px){
+      .detail-head1{
+        font-size: 30px;
+      }
+      .detail-spe{
+        margin-left: 30px;
+        margin-right: 50px;
+      }
+      .vertical-line{
+          border-left: 2px solid white;
+          height: 260px;
+          margin-left: 10px;
+          padding-left: 15px;
+        }
+      }
+
+   
+
+  @media(min-width:1440px){
+    .social-title{
+        font-size: 60px;
+      }
+      .detail-spe{
+        margin-left: 30px;
+        margin-right: 65px;
+      }
+      .detail-head1{
+          font-size: 50px;
+        }
+      .detail-head2{
+        font-size: 50px;
+      }
+      .vertical-line{
+        border-left: 2px solid white;
+        height: 270px;
+        margin-left: 10px;
+        padding-left: 15px;
+      }
+  }

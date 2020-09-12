@@ -5,7 +5,8 @@ body{
 
 @media(min-width:320px){
   .header{
-    font-size: 60px;
+    font-size: 30px;
+    background-color: darkred;
   }
   .img{
     width: 100%;
@@ -17,10 +18,90 @@ body{
     font-size: 60px;
   }
   .img{
-    width: 360px;
-    height: 360px;
+    width:380px;
+    height:410px;
   }
   .data{
-    font-size: 13px;
+    font-size: 11px;
   }
 }
+
+@media(min-width:830px){
+  .header{
+    font-size: 60px;
+  }
+  .img{
+    width:400px;
+    height:400px;
+  }
+  .data{
+    font-size: 11px;
+  }
+}
+
+@media(min-width:879px){
+  .header{
+    font-size: 60px;
+  }
+  .img{
+    width:435px;
+    height:435px;
+  }
+  .data{
+    font-size: 12px;
+  }
+}
+
+@media(min-width:897px){
+  .header{
+    font-size: 60px;
+  }
+  .img{
+    width:435px;
+    height:450px;
+  }
+  .data{
+    font-size: 12px;
+  }
+}
+
+@media(min-width:1024px){
+  .header{
+    font-size: 60px;
+  }
+  .img{
+    width:500px;
+    height:560px;
+  }
+  .data{
+    font-size: 14px;
+  }
+}
+
+@media(min-width:1145px){
+  .header{
+    font-size: 60px;
+  }
+  .img{
+    width:560px;
+    height:600px;
+  }
+  .data{
+    font-size: 16px;
+  }
+}
+
+@media(min-width:1440px){
+  .header{
+    font-size: 60px;
+  }
+  .img{
+    width:700px;
+    height:760px;
+  }
+  .data{
+    font-size: 20px;
+  }
+}
+
+ 

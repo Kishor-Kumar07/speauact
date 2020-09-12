@@ -8,12 +8,16 @@ import jpt from '../Images/jpt-e1553695432661.png'
 import emonitos from '../Images/emonitos.png'
 import energy from '../Images/Energy4me_logo_RGB-e1553695950745.png'
 import wiki from '../Images/2016-06_spe101_hero-e1553695617293.png'
+import '../Styles/resource.css'
+
  function Resources() {
     return (
         <div>
-            <div className="header">
-               <h1 >SPE Resources</h1>
-            </div>
+            <Row style={{margin:"0px"}}>
+               <Col style={{backgroundColor:"darkblue",color:"white"}}>
+                  <h1 className="speresource">SPE Resources</h1>
+               </Col>
+            </Row>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center',textAlign:'center'}}>
                 <Col md={3} className="images">
                    <img src={jpt}/>

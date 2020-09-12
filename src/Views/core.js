@@ -14,16 +14,18 @@ import benjamin from '../Images/9.png'
 import '../Styles/core.css'
 
 function Core() {
-    return (
-        <div id="core">
-            <div>
-               <h1 className="header">Core Commitee</h1>
-            </div>
-            <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
-                <Col md={2} className="images img">
+    return (    
+        <div id="core">   
+            <Row style={{margin:'0px'}}>  
+              <Col sm={12} md={12} lg={12}>
+                  <h1 className="head">Core Commitee</h1>
+               </Col>
+            </Row>
+            <Row className="images" style={{margin:'0px'}}>
+                <Col md={2} >
                   <img src={kalai}/>
                 </Col>
-                <Col md={3} className="images">
+                <Col md={3} className="datas">
                 <span><b>Dr. S. Kalaiselvam
                       <br />
                       Head of the Department
@@ -36,11 +38,11 @@ function Core() {
                       E-mail: kalai@annauniv.edu
                       </span>
                 </Col>
-                <span><div className="line"></div></span>
-                <Col md={2} className="images offset-md-1">
+                  <span><div className="line"></div></span>
+                 <Col md={2} className="images offset-md-1">
                   <img src={priya}/>
                 </Col>
-                <Col md={3} className="images">
+                <Col md={3} className="datas">
                 <span><b>Dr. J. Jayapriya
                       <br />
                       Faculty Advisor
@@ -95,7 +97,7 @@ function Core() {
                       E-mail: viswaavignesh0@gmail.com
                       </span>
                 </Col>
-                <Col md={3} className="images ">
+               <Col md={3} className="images ">
                   <img src={raj}/>
                   <br />
                 <span><b>Mr. R. Karanraju
@@ -136,8 +138,8 @@ function Core() {
                 </Col>
                 <Col md={3} className="images ">
                   <img src={karthi}/>
-                  <br />
-                <span><b>Mr. P. Karthikeyan
+                   <br />
+                 <span><b>Mr. P. Karthikeyan
                       <br />
                       Communication Chairperson
                       </b>
@@ -160,7 +162,7 @@ function Core() {
                       E-mail: seeni24vasan@gmail.com
                       </span>
                 </Col>
-                <Col md={3} className="images offset-md-1">
+                 <Col md={3} className="images offset-md-1">
                   <img src={bharat}/>
                   <br />
                 <span><b>Mr. S. Bharat Kumar

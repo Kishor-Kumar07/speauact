@@ -7,6 +7,8 @@ import Core from './core'
 import Contact from './contact'
 import Mission from './missionandvision'
 import Petrovision from './petrovision'
+import Petr from './petr';
+import Social from './social';
 import Gallery from './gallery'
 import Event from './eventpartners'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -81,16 +83,18 @@ class App extends Component{
 
         </div>
       <div id="aboutus"><Aboutus/></div>
-       {/* <Mission/> */}
-      {/* <div id="core"><Core/></div>
+       <Mission/>
+      <div id="core"><Core/></div>
       <Petrovision/>
+      <Petr/>
+      <Social/>
       <Publications/>
       <div id="gallery"><Gallery/></div>
       <Resource />
       <Sponsor />
       <Event/>
       <div id="contact"><Contact/></div>
-      */}
+     
       
     </div>
     

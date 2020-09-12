@@ -15,7 +15,7 @@ import '../Styles/mission.css'
                 <Col sm={12} md={6} lg={6}>
                     <img src={mission} className="img"/>
                 </Col>      
-            <Col sm={12} md={6} lg={6} className="text">
+            <Col sm={12} md={6} lg={6} className="data">
                 <br/>
                 <span>
                 AC Tech, Anna University SPE Student Chapter aspires to open doors to each

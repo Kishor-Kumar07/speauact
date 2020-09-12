@@ -22,10 +22,10 @@ body{
   }
   .image{
     width:380px;
-    height:380px;
+    height:410px;
   }
   .text{
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -42,7 +42,7 @@ body{
   }
 }
 
-@media(min-width:880px){
+@media(min-width:879px){
   .header{
     font-size: 60px;
   }
@@ -60,7 +60,7 @@ body{
     font-size: 60px;
   }
   .image{
-    width:450px;
+    width:430px;
     height:450px;
   }
   .text{

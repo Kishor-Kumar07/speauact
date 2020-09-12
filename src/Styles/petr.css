@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+  }
+
+  @media(min-width:320px){
+    .picture1{
+      margin-left: 70px;
+      padding-bottom: 20px;
+    }
+    .picture2{
+        margin-left: 10px;
+        padding-bottom: 20px;
+      }
+    .picdetails{
+      width: 100%;
+    }
+  }
+
+  @media(min-width:400px){
+    .picture1{
+      margin-left: 110px;
+      padding-bottom: 20px;
+    }
+    .picture2{
+        margin-left: 50px;
+        padding-bottom: 20px;
+      }
+    .picdetails{
+      width: 100%;
+    }
+  }
+
+  @media(min-width:500px){
+    .picture1{
+      margin-left: 160px;
+      padding-bottom: 20px;
+    }
+    .picture2{
+        margin-left: 100px;
+        padding-bottom: 20px;
+      }
+    .picdetails{
+      width: 100%;
+    }
+  }
+
+  @media(min-width:600px){
+    .picture1{
+      margin-left: 220px;
+      padding-bottom: 20px;
+    }
+    .picture2{
+        margin-left: 150px;
+        padding-bottom: 20px;
+      }
+    .picdetails{
+      width: 100%;
+    }
+  }
+
+  @media(min-width:700px){
+    .picture1{
+      margin-left: 270px;
+      padding-bottom: 20px;
+    }
+    .picture2{
+        margin-left: 200px;
+        padding-bottom: 20px;
+      }
+    .picdetails{
+      width: 100%;
+    }
+  }
+
+  @media(min-width:768px){
+    .picture1{
+      margin:0px;
+      width:300px;
+      padding-left: 100px;
+    }
+    .picture2{
+        width:310px;
+        padding-bottom: 70px;
+        padding-top: 40px;
+        padding-left: 60px;
+        margin:0px;
+      }
+    .picdetails{
+      font-size: 20px;
+    }
+  }
+
+  @media(min-width:940px){
+    .picture1{
+      margin:0px;
+      width:370px;
+      padding-left: 130px;
+    }
+    .picture2{
+        width:370px;
+        padding-bottom: 70px;
+        padding-top: 60px;
+        padding-left: 80px;
+        margin:0px;
+      }
+    .picdetails{
+      font-size: 20px;
+    }
+  }
+
+  @media(min-width:1024px){
+    .picture1{
+      margin:0px;
+      width:380px;
+      padding-left: 155px;
+    }
+    .picture2{
+        width:380px;
+        padding-bottom: 40px;
+        padding-top: 80px;
+        padding-left: 100px;
+        margin:0px;
+      }
+    .picdetails{
+      font-size: 20px;
+    }
+  }
+
+  @media(min-width:1440px){
+    .picture1{
+      margin:0px;
+      width:560px;
+      padding-left: 230px;
+    }
+    .picture2{
+        width:500px;
+        padding-bottom: 145px;
+        padding-top: 65px;
+        padding-left: 200px;
+        margin:0px;
+      }
+    .picdetails{
+      font-size: 20px;
+    }
+  }

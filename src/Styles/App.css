@@ -3,11 +3,7 @@
 .icon-background{
   border: red;
 }
-.line{
- 
-    border-left: 2px solid gray;
-    height: 150px;
-}
+
 .bg {
   background-image: url("../Images/Mask\ Group\ 8@2x.png");
   height: 100vh;
