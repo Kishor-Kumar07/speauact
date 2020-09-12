@@ -5,6 +5,17 @@ html{
   box-sizing: border-box;
 }
 
+
+.bg {
+  background-image: url("../Images/Mask\ Group\ 8@2x.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+ 
+
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color: white;
@@ -85,7 +96,7 @@ body {
   
 @media(min-width:320px){
   .linked{
-    display:block
+    display:none
   }
   
   .bm-burger-button {
@@ -102,10 +113,6 @@ body {
 }
 
 @media(min-width:360px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -113,16 +120,9 @@ body {
     left: 305px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:375px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -130,16 +130,9 @@ body {
     left: 320px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:400px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -147,17 +140,9 @@ body {
     left: 345px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
-
 }
 
 @media(min-width:425px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -165,16 +150,9 @@ body {
     left: 370px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:450px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -182,16 +160,9 @@ body {
     left: 395px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:500px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -199,16 +170,9 @@ body {
     left: 445px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:576px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -216,25 +180,15 @@ body {
     left: 520px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:700px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
     height: 30px;
     left: 645px;
     top: 26px;
-  }
-  .carousel{
-    padding-top: 20px;
   }
 }
 
@@ -243,7 +197,6 @@ body {
   .linked{
     display:block
   }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -251,16 +204,9 @@ body {
     left: 710px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:775px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -268,16 +214,9 @@ body {
     left: 720px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:825px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -285,16 +224,9 @@ body {
     left: 770px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:900px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -302,16 +234,9 @@ body {
     left: 845px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:927px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -319,16 +244,9 @@ body {
     left: 870px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:957px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -336,16 +254,9 @@ body {
     left: 900px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:1024px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -353,16 +264,9 @@ body {
     left: 960px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:1200px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
@@ -370,24 +274,14 @@ body {
     left: 1145px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
 }
 
 @media(min-width:1440px){
-  .linked{
-    display:block
-  }
-  
   .bm-burger-button {
     position: absolute;
     width: 36px;
     height: 30px;
     left: 1380px;
     top: 26px;
-  }
-  .carousel{
-    padding-top: 20px;
   }
 }

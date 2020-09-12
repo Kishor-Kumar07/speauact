@@ -1,18 +1,4 @@
 body{
     margin: 0px;
   }
-  @media(min-width:320px){
-    .publications{
-        font-size: 30px;
-    }
-  }  
-  @media(min-width:375px){
-    .pimages{
-      text-align: center;
-    }
-  }
-  @media(min-width:768px){
-    .publications{
-        font-size: 60px;
-    }
-  }    
+ 

@@ -12,13 +12,14 @@ import gunalan from '../Images/Mask Group 7.png'
 import viswa from '../Images/5.png'
 import benjamin from '../Images/9.png'
 import '../Styles/core.css'
+import '../Styles/App.css'
 
 function Core() {
     return (    
         <div id="core">   
             <Row style={{margin:'0px'}}>  
-              <Col sm={12} md={12} lg={12}>
-                  <h1 className="head">Core Commitee</h1>
+              <Col sm={12} md={12} lg={12} style={{color:"black",backgroundColor:"rgb(204,204,0)",marginBottom:"20px"}}>
+                  <h1 className="header">Core Commitee</h1>
                </Col>
             </Row>
             <Row className="images" style={{margin:'0px'}}>

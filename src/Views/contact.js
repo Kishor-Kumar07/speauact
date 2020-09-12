@@ -5,13 +5,15 @@ import fb from '../Images/Group 57.png'
 import instagram from '../Images/Group 54.png'
 import twitter from '../Images/Group 65.png'
 import linkedin from '../Images/Group 71.png'
+import '../Styles/App.css'
+
 function Contact() {
     return (
         <div id="contactus">
             <br/>
             <Row style={{margin:'0px'}}>
                 <Col md={12} md={12} lg={12} style={{color:"white",backgroundColor:"lightblue"}}>
-                    <h1 className="contact">Contact Us</h1>
+                    <h1 className="header">Contact Us</h1>
                 </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center'}}>

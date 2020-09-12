@@ -3,26 +3,15 @@ body{
 }
 
 @media(min-width:320px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 30px;
-  }
   .images{
     text-align: center;
   }
   .datas{
     text-align: center;
   }
-  
 }
 
 @media(min-width:375px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 30px;
-  }
   .images{
     text-align: center;
   }
@@ -33,11 +22,6 @@ body{
 }
 
 @media(min-width:425px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 30px;
-  }
   .images{
     text-align: center;
   }
@@ -47,11 +31,6 @@ body{
 }
 
 @media(min-width:500px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 30px;
-  }
   .images{
     text-align: center;
   }
@@ -63,11 +42,6 @@ body{
 
 
 @media(min-width:768px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 60px;
-  }
   .line{
     border-left: 2px solid gray;
     height: 240px;
@@ -83,11 +57,6 @@ body{
 }
 
 @media(min-width:1024px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 60px;
-  }
   .line{
     border-left: 2px solid gray;
     height: 240px;
@@ -96,11 +65,6 @@ body{
 }
 
 @media(min-width:1440px){
-  .head{
-    background-color: rgb(204,204,0);
-    color: white;
-    font-size: 60px;
-  }
   .line{
     border-left: 2px solid gray;
     height: 240px;

@@ -2,12 +2,13 @@ import React from 'react'
 import {Row,Col} from 'reactstrap'
 import actech from '../Images/Mask Group 9.png'
 import '../Styles/aboutus.css'
+import '../Styles/App.css'
 
  function Aboutus() {
     return (
         <section id="aboutus">
             <Row style={{margin:'0px'}}>
-                <Col sm={12} md={12} lg={12}>
+                <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"black"}}>
                     <h1 className="header">About US</h1>
                </Col>
             </Row>

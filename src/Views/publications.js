@@ -6,12 +6,14 @@ import Sunday from '../Images/Artboard 1@4xsunday 2.png'
 import sun from '../Images/Artboard 1@4xsunday.png'
 import Monday from '../Images/Artboard 1@4xmonday.png'
 import '../Styles/publications.css'
+import '../Styles/App.css'
+
 function Publications() {
     return (
         <div id="publications">
             <Row style={{margin:'0px'}}>
                 <Col style={{color:"white",backgroundColor:"black"}} md={12} md={12} lg={12}>
-                    <h1 className="publications">Publications</h1>
+                    <h1 className="header">Publications</h1>
                 </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>

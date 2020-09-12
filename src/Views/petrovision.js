@@ -2,14 +2,14 @@ import React from 'react'
 import {Row,Col} from 'reactstrap'
 import petrovision from '../Images/Path 9@2x.png'
 import '../Styles/petrovision.css'
-
+import '../Styles/App.css'
 
  function Petrovision() {
     return (
         <div style={{background:"black"}}>
             <Row style={{margin:'0px'}}>
-                <Col md={12} md={12} lg={12}>
-                    <h1 className="title">Petrovision</h1>
+                <Col md={12} md={12} lg={12} style={{color:"gold",backgroundColor:"black"}}>
+                    <h1 className="header">Petrovision</h1>
                 </Col>
             </Row>
             <Row style={{margin:'0px'}}>

@@ -2,21 +2,13 @@ body{
   margin: 0px;
 }
 
-
 @media(min-width:320px){
-  .header{
-    font-size: 30px;
-    background-color: darkred;
-  }
   .img{
     width: 100%;
   }
 }
 
 @media(min-width:768px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:380px;
     height:410px;
@@ -27,9 +19,6 @@ body{
 }
 
 @media(min-width:830px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:400px;
     height:400px;
@@ -40,9 +29,6 @@ body{
 }
 
 @media(min-width:879px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:435px;
     height:435px;
@@ -53,9 +39,6 @@ body{
 }
 
 @media(min-width:897px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:435px;
     height:450px;
@@ -66,9 +49,6 @@ body{
 }
 
 @media(min-width:1024px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:500px;
     height:560px;
@@ -79,9 +59,6 @@ body{
 }
 
 @media(min-width:1145px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:560px;
     height:600px;
@@ -92,9 +69,6 @@ body{
 }
 
 @media(min-width:1440px){
-  .header{
-    font-size: 60px;
-  }
   .img{
     width:700px;
     height:760px;

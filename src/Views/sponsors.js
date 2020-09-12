@@ -12,12 +12,14 @@ import redhat from '../Images/rzvaammdxaa9vhgwuiot.png'
 import petro from '../Images/unnamed.png'
 import cub from '../Images/logo.png'
 import '../Styles/sponsors.css'
+import '../Styles/App.css'
+
  function Sponsors() {
     return (
         <div>
             <Row style={{margin:'0px'}}>
                 <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"black"}}>
-                    <h1 className="sponsors">Our Sponsors</h1>
+                    <h1 className="header">Our Sponsors</h1>
                </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>

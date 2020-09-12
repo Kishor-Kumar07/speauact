@@ -9,13 +9,14 @@ import emonitos from '../Images/emonitos.png'
 import energy from '../Images/Energy4me_logo_RGB-e1553695950745.png'
 import wiki from '../Images/2016-06_spe101_hero-e1553695617293.png'
 import '../Styles/resource.css'
+import '../Styles/App.css'
 
  function Resources() {
     return (
         <div>
             <Row style={{margin:"0px"}}>
                <Col style={{backgroundColor:"darkblue",color:"white"}}>
-                  <h1 className="speresource">SPE Resources</h1>
+                  <h1 className="header">SPE Resources</h1>
                </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center',textAlign:'center'}}>

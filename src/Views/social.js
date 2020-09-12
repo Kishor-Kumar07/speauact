@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row,Col} from 'reactstrap';
 import '../Styles/social.css'
-
+import '../Styles/App.css'
 
  function Social() {
     return (
@@ -12,8 +12,8 @@ import '../Styles/social.css'
                 </Col>
             </Row>
             <Row style={{margin:'0px'}}>
-                <Col sm={12} md={12} lg={12}>
-                    <h1 className="social-title" style={{backgroundColor:"black",color:"white",paddingBottom:"60px"}}>Social Initiatives</h1>
+                <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"black"}}>
+                    <h1 className="header" style={{backgroundColor:"black",color:"white",paddingBottom:"60px"}}>Social Initiatives</h1>
                </Col>
             </Row>
             <Row style={{margin:'0px'}}>

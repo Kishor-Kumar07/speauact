@@ -1,15 +1,4 @@
 body{
     margin: 0px;
   }
-  
-  
-  @media(min-width:320px){
-    .sponsors{
-        font-size: 30px;
-    }
-  }
-  @media(min-width:768px){
-    .sponsors{
-        font-size: 60px;
-    }
-  }
+ 

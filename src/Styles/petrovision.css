@@ -4,10 +4,6 @@ body{
 
 
 @media(min-width:320px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
     padding-top: 30px;
     width: 100%;
@@ -22,20 +18,12 @@ body{
 }
 
 @media(min-width:550px){
-  .detail{
-    font-size: 16px;
-    color: white;
-  }
   .span{
     font-size: 25px;
   }
 }
 
 @media(min-width:700px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
     padding-top: 30px;
     width: 500px;
@@ -52,13 +40,10 @@ body{
 }
 
 @media(min-width:768px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
-   width:340px;
-   height:320px;
+    margin:0px;
+    width:320px;
+    padding-left: 50px;
   }
   .detail{
     font-size: 13px;
@@ -69,11 +54,7 @@ body{
   }
 }
 
-@media(min-width:830px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
+@media(min-width:830px){ 
   .pic{
     padding-top: 30px;
     width: 100%;
@@ -85,10 +66,6 @@ body{
 }
 
 @media(min-width:879px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
     padding-top: 30px;
     width: 100%;
@@ -100,10 +77,6 @@ body{
 }
 
 @media(min-width:897px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
     padding-top: 30px;
     width: 100%;
@@ -115,13 +88,10 @@ body{
 }
 
 @media(min-width:1024px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
-    padding-top: 30px;
-    width: 100%;
+    margin:0px;
+    width:400px;
+    padding-left: 110px;
   }
   .detail{
     font-size: 13px;
@@ -130,13 +100,10 @@ body{
 }
 
 @media(min-width:1145px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
-    padding-top: 30px;
-    width: 100%;
+    margin:0px;
+    width:460px;
+    padding-left: 110px;
   }
   .detail{
     font-size: 13px;
@@ -145,13 +112,9 @@ body{
 }
 
 @media(min-width:1440px){
-  .title{
-    font-size: 50px;
-    color: gold;
-  } 
   .pic{
     padding-top: 30px;
-    width: 510px;
+    width: 530px;
     height: 430px;
   }
   .detail{

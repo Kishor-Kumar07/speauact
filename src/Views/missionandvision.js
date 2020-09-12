@@ -2,12 +2,13 @@ import React from 'react'
 import {Row,Col} from 'reactstrap'
 import mission from '../Images/14111@2x.png'
 import '../Styles/mission.css'
+import '../Styles/App.css'
 
  function MissionandVision() {
     return (
         <div id="mission">
             <Row style={{margin:'0px'}}>
-                <Col sm={12} md={12} lg={12}>
+                <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"darkred"}}>
                     <h1 className="header">Mission and Vision</h1>
                </Col>
             </Row>

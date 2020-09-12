@@ -43,10 +43,7 @@ class App extends Component{
       <div className="bg">
       
             <Row style={{margin:'0px'}}>
-                <Col md={5}>
-
-                </Col>
-               
+                <Col md={5}/>
             </Row>
             <br />
             <Row style={{margin:'0px'}} >

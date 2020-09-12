@@ -1,15 +1,3 @@
 body{
     margin: 0px;
   }
-
-  @media(min-width:320px){
-      .gallery{
-          font-size: 30px;
-      }
-  }
-  @media(min-width:768px){
-    .gallery{
-        font-size: 60px;
-    }
-}
-  
