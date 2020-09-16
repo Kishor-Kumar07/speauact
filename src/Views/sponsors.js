@@ -23,7 +23,7 @@ import '../Styles/App.css'
                </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
-                <Col md={1} className="images" >
+                <Col md={1} className="images">
                     <img src={ongc} />
                 </Col>
                 <Col md={1} className="images offset-md-1" >

@@ -10,3 +10,14 @@ body{
 .contact-img{
   padding-right: 20px;
 }
+
+@media(min-width:320px){
+  .address{
+    font-size: 13px;
+  }
+}
+@media(min-width:1440px){
+  .address{
+    font-size: 18px;
+  }
+}

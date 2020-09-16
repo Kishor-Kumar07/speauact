@@ -1,4 +1,14 @@
 body{
     margin: 0px;
   }
- 
+  @media(min-width:320px){
+    .content{
+      font-size: 13px;
+    }
+  }
+  @media(min-width:1440px){
+    .content{
+      font-size: 18px;
+    }
+  }
+  

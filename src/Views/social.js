@@ -19,7 +19,7 @@ import '../Styles/App.css'
             <Row style={{margin:'0px'}}>
                     <Col sm={12} md={5} style={{color:'white'}} className="detail-spe">
                         <h1 className="detail-head1" style={{textAlign:"center"}}>SPE Cares</h1>
-                        <p>SPE AUACT Student Chapter is socially
+                        <p className="social-detail">SPE AUACT Student Chapter is socially
                             concerned by inculcating the goodness of
                             benevolence in us under the scheme of
                             <span style={{fontWeight:"bold"}}> "SPE Cares"</span> by organising numerous <span style={{fontWeight:"bold"}}> Fundraising
@@ -36,7 +36,7 @@ import '../Styles/App.css'
                      <span><div className="vertical-line"></div></span>
                     <Col sm={12} md={5} style={{color:'white'}} className="detail-green">
                         <h1 className="detail-head2" style={{textAlign:"center"}}>SPE Green Campaign</h1>
-                        <p>SPE AUACT Student Chapter feels glad to
+                        <p className="social-detail">SPE AUACT Student Chapter feels glad to
                             have launched the <span style={{fontWeight:"bold"}}> "Foster A Tree"</span> initiative
                             under the banner of <span style={{fontWeight:"bold"}}> "SPE Green Campaign"</span>
                             thereby contributing to the sustenance of Earth's

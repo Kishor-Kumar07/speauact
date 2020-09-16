@@ -8,7 +8,7 @@ body{
     width: 100%;
   }
   .text{
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 
@@ -17,18 +17,13 @@ body{
     width:380px;
     height:410px;
   }
-  .text{
-    font-size: 14px;
-  }
+ 
 }
 
 @media(min-width:830px){
   .image{
     width:400px;
     height:400px;
-  }
-  .text{
-    font-size: 14px;
   }
 }
 
@@ -37,18 +32,12 @@ body{
     width:435px;
     height:435px;
   }
-  .text{
-    font-size: 15px;
-  }
 }
 
 @media(min-width:897px){
   .image{
     width:430px;
     height:450px;
-  }
-  .text{
-    font-size: 16px;
   }
 }
 
@@ -57,18 +46,12 @@ body{
     width:500px;
     height:560px;
   }
-  .text{
-    font-size: 19px;
-  }
 }
 
 @media(min-width:1145px){
   .image{
     width:560px;
     height:600px;
-  }
-  .text{
-    font-size: 21px;
   }
 }
 
@@ -78,7 +61,7 @@ body{
     height:760px;
   }
   .text{
-    font-size: 27px;
+    font-size: 13px;
   }
 }
 

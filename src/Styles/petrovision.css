@@ -17,11 +17,6 @@ body{
   }
 }
 
-@media(min-width:550px){
-  .span{
-    font-size: 25px;
-  }
-}
 
 @media(min-width:700px){
   .pic{
@@ -29,13 +24,6 @@ body{
     width: 500px;
     height: 300px;
     padding-left: 150px;
-  }
-  .detail{
-    font-size: 13px;
-    color: white;
-  }
-  .span{
-    font-size: 25px;
   }
 }
 
@@ -45,13 +33,6 @@ body{
     width:320px;
     padding-left: 50px;
   }
-  .detail{
-    font-size: 13px;
-    color: white;
-  }
-  .span{
-    font-size: 25px;
-  }
 }
 
 @media(min-width:830px){ 
@@ -59,43 +40,14 @@ body{
     padding-top: 30px;
     width: 100%;
   }
-  .detail{
-    font-size: 13px;
-    color: white;
-  }
 }
 
-@media(min-width:879px){
-  .pic{
-    padding-top: 30px;
-    width: 100%;
-  }
-  .detail{
-    font-size: 13px;
-    color: white;
-  }
-}
-
-@media(min-width:897px){
-  .pic{
-    padding-top: 30px;
-    width: 100%;
-  }
-  .detail{
-    font-size: 13px;
-    color: white;
-  }
-}
 
 @media(min-width:1024px){
   .pic{
     margin:0px;
     width:400px;
     padding-left: 110px;
-  }
-  .detail{
-    font-size: 13px;
-    color: white;
   }
 }
 
@@ -104,10 +56,6 @@ body{
     margin:0px;
     width:460px;
     padding-left: 110px;
-  }
-  .detail{
-    font-size: 13px;
-    color: white;
   }
 }
 
