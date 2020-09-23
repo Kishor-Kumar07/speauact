@@ -20,3 +20,10 @@
     border-left: 2px solid gray;
     height: 150px;
 }
+.bg {
+  background-image: url("./Images/Mask Group 8.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }

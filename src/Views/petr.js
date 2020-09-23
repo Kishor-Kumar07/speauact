@@ -7,7 +7,7 @@ import '../Styles/petr.css'
 
  function Petr() {
     return (
-        <div style={{background:"black"}}>
+        <div id="petr" style={{background:"black"}}>
             <Row style={{margin:'0px'}}>
                 <Col md={12} md={12} lg={12}>
                     <hr style={{backgroundColor:'white'}}/>

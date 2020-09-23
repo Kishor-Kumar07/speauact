@@ -26,13 +26,14 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
+  color:#000000;
 }
 
 .bm-item:hover {
-  color: black;
-}
-
-
+  color: 	#000000;
+  font-weight: bolder;
+  
+} 
 
 
 .bm-burger-bars {
@@ -89,14 +90,31 @@ body {
   display: initial;
 }
 
-.hr{
-  background: black;
+
+.links{
+  cursor: pointer;
+}
+
+.list{
+  color:gray;
+}
+
+.list:hover{
+  color:#000000;
+  font-weight: bolder;
+}
+.spots{
+  color: white;
+}
+
+.spots:hover{
+  color: black;
 }
 
   
 @media(min-width:320px){
   .linked{
-    display:none
+    display:none;
   }
   
   .bm-burger-button {
@@ -195,14 +213,15 @@ body {
 
 @media(min-width:768px){
   .linked{
-    display:block
-  }
+    display:block;
+    cursor: pointer;
+  }  
   .bm-burger-button {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 710px;
-    top: 26px;
+    left: 720px;
+    top: 130px;
   }
 }
 
@@ -211,8 +230,8 @@ body {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 720px;
-    top: 26px;
+    left: 725px;
+    top: 130px;
   }
 }
 
@@ -221,8 +240,8 @@ body {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 770px;
-    top: 26px;
+    left: 775px;
+    top: 130px;
   }
 }
 
@@ -232,7 +251,7 @@ body {
     width: 36px;
     height: 30px;
     left: 845px;
-    top: 26px;
+    top: 82px;
   }
 }
 
@@ -242,7 +261,7 @@ body {
     width: 36px;
     height: 30px;
     left: 870px;
-    top: 26px;
+    top: 82px;
   }
 }
 
@@ -251,8 +270,18 @@ body {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 900px;
-    top: 26px;
+    left: 895px;
+    top: 82px;
+  }
+}
+
+@media(min-width:1000px){
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 925px;
+    top: 82px;
   }
 }
 
@@ -262,7 +291,7 @@ body {
     width: 36px;
     height: 30px;
     left: 960px;
-    top: 26px;
+    top: 82px;
   }
 }
 
@@ -271,8 +300,8 @@ body {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 1145px;
-    top: 26px;
+    left: 1110px;
+    top: 82px;
   }
 }
 
@@ -281,7 +310,7 @@ body {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 1380px;
-    top: 26px;
+    left: 1350px;
+    top: 82px;
   }
 }

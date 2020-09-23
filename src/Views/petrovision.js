@@ -6,7 +6,7 @@ import '../Styles/App.css'
 
  function Petrovision() {
     return (
-        <div style={{background:"black"}}>
+        <div id="petrovision" style={{background:"black"}}>
             <Row style={{margin:'0px'}}>
                 <Col md={12} md={12} lg={12} style={{color:"gold",backgroundColor:"black"}}>
                     <h1 className="header">Petrovision</h1>

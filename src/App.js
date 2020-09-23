@@ -10,11 +10,12 @@ import Mission from './missionandvision'
 import Petrovision from './petrovision'
 import Gallery from './gallery'
 import Event from './eventpartners'
-
+import Header from './header'
 
 function App(){
   return (
     <div >
+      <Header />
       <Aboutus/>
       <Mission/>
       <Core />

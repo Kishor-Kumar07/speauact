@@ -17,7 +17,7 @@ import cub from './Images/logo.png'
             <div className="header">
                <h1 >Our Sponsors</h1>
             </div>
-            <Row style={{margin:'0px',alignItems:'center'}}>
+            <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
                 <Col md={1} className="images " >
                     <img src={ongc} />
                 </Col>
@@ -37,7 +37,7 @@ import cub from './Images/logo.png'
                     <img src={spic} />
                 </Col>
                 </Row>
-                <Row style={{margin:'0px',alignItems:'center'}}>
+                <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
                 <Col md={1} className="images " >
                     <img src={kothari} />
                 </Col>

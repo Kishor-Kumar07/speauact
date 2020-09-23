@@ -14,53 +14,53 @@ import wiki from './Images/2016-06_spe101_hero-e1553695617293.png'
             <div className="header">
                <h1 >SPE Resources</h1>
             </div>
-            <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
-                <Col md={2} className="images offset-md-1">
+            <Row style={{margin:'0px',alignItems:'center',justifyContent:'center',textAlign:'center'}}>
+                <Col md={3} className="images">
                    <img src={jpt}/>
                    <br />
                    <br />
                    <span>Journey Of Petroleum Technology</span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <Col md={3} className="images ">
                    <img src={way} />
                    <br />
                    <br />
                    <span>THE WAY AHEAD</span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <Col md={3} className="images ">
                    <img src={energy} />
                    <br />
                    <br />
                    <span>Energy For Me</span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <Col md={3} className="images ">
                    <img src={onepetro} />
                    <br />
                    
                    <span>One Petro</span>
                 </Col>
                 </Row>
-                <Row style={{margin:'0px',alignItems:'center'}}>
-                <Col md={2} className="images offset-md-1">
+                <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
+                <Col md={3} className="images ">
                    <img src={emonitos} />
                    <br />
                    
                    <span>SPE e-mentoring Program</span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <Col md={3} className="images ">
                    <img src={wiki} />
                    <br />
                    
                    <span>PetroWiki</span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <Col md={3} className="images">
                    <img src={connect} />
                    <br />
                    <br />
                    <br />
                    <span>SPE connect</span>
                 </Col>
-                <Col md={2} className="images offset-md-1">
+                <Col md={3} className="images ">
                    <img src={webinars} />
                    <br />
                    <br />

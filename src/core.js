@@ -21,7 +21,7 @@ function Core() {
                 <Col md={2} className="images">
                   <img src={kalai}/>
                 </Col>
-                <Col md={2} className="images">
+                <Col md={3} className="images">
                 <span><b>Dr. S. Kalaiselvam
                       <br />
                       Head of the Department
@@ -35,7 +35,7 @@ function Core() {
                       </span>
                 </Col>
                 <span><div className="line"></div></span>
-                <Col md={2} className="images">
+                <Col md={2} className="images offset-md-1">
                   <img src={priya}/>
                 </Col>
                 <Col md={3} className="images">
@@ -52,8 +52,8 @@ function Core() {
                       </span>
                 </Col>
                 </Row>
-                <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
-                <Col md={3} className="images offset-md-1" >
+                <Row style={{margin:'0px',textAlign:'center'}}>
+                <Col md={3} className="images " >
                   <img src={benjamin}/>
                   <br />
                 <span ><b>Mr. B. J. Maryson Benjamin
@@ -67,6 +67,7 @@ function Core() {
                       </span>
                 </Col>
                 <Col md={3} className="images offset-md-1">
+                  <br />
                   <img src={arun}/>
                   <br />
                 <span><b>Mr. K. Arun
@@ -92,7 +93,7 @@ function Core() {
                       E-mail: viswaavignesh0@gmail.com
                       </span>
                 </Col>
-                <Col md={3} className="images offset-md-1">
+                <Col md={3} className="images ">
                   <img src={raj}/>
                   <br />
                 <span><b>Mr. R. Karanraju
@@ -131,7 +132,7 @@ function Core() {
                       E-mail: sai863100@gmail.com
                       </span>
                 </Col>
-                <Col md={3} className="images offset-md-1">
+                <Col md={3} className="images ">
                   <img src={karthi}/>
                   <br />
                 <span><b>Mr. P. Karthikeyan

@@ -24,10 +24,11 @@ import '../Styles/style.css'
 
 class App extends Component{
   constructor(props){
-    super(props)
+   super();
     this.state={ 
       open:false,
-      drop:false
+      drop:false,
+      show:false
     } 
     this.handleOpen = this.handleOpen.bind(this);
   }
@@ -35,29 +36,38 @@ class App extends Component{
   handleOpen=(prop)=>{ 
     this.setState({open:prop}) 
   }
+
+  handleShow=()=>{
+    this.setState({show:!this.state.show})
+  }
   
 
   render(){
     return(
       <div id="home">
       <div className="bg">
-      
+            <Row style={{margin:'0px'}}>
+              <Col>
+                <h1 style={{textAlign:"right"}}>AC Tech,Anna University SPE Student Chapter</h1>
+              </Col>
+            </Row>
             <Row style={{margin:'0px'}}>
                 <Col md={5}/>
             </Row>
             <br />
             <Row style={{margin:'0px'}} >
             <Col md={2} className="offset-md-5 linked">
-            <Link to="aboutus" smooth={true} duration={1000}>Mission And Vision</Link>
+              <div>
+            <Link to="mission" smooth={true} duration={1000}><span className="spots">{'\u2B24'}<span style={{color:"black"}}>Mission And Vision</span></span></Link></div>
             </Col>
             <Col md={2} className="linked">
-            <Link to="core" smooth={true} duration={1000}>Core Committee</Link>
+            <Link to="core" smooth={true} duration={1000}><span className="spots">{'\u2B24'}<span style={{color:"black"}}>Core Committee</span></span></Link>
             </Col>
             <Col md={1} className="linked">
-            <Link to="gallery" smooth={true} duration={1000}>Gallery</Link>
+            <Link to="gallery" smooth={true} duration={1000}><span className="spots">{'\u2B24'}<span style={{color:"black"}}>Gallery</span></span></Link>
             </Col>
             <Col md={1} className="linked">
-            <Link to="contact" smooth={true} duration={1000}>Contact Us</Link>
+            <Link to="contact" smooth={true} duration={1000}><span className="spots">{'\u2B24'}<span style={{color:"black"}}>Contact Us</span></span></Link>
             </Col>
 
             </Row>
