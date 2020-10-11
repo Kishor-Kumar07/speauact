@@ -48,7 +48,7 @@ class App extends Component{
       <div className="bg">
             <Row style={{margin:'0px'}}>
               <Col>
-                <h1 style={{textAlign:"right"}}>AC Tech,Anna University SPE Student Chapter</h1>
+                <h1 style={{textAlign:"right",paddingRight:"20px"}}  className="top-title">AC Tech,Anna University SPE Student Chapter</h1>
               </Col>
             </Row>
             <Row style={{margin:'0px'}}>

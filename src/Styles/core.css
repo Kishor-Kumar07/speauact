@@ -39,3 +39,12 @@ body{
     font-size: 20px;
   }
 }
+
+@media(min-width:1500px){
+  .line{
+    margin-left: 100px;
+  }
+  .core-img{
+    padding-left: 80px;
+  }
+}

@@ -62,7 +62,19 @@ body{
     height:760px;
   }
   .data{
-    font-size: 18px;
+    font-size: 20px;
+  }
+}
+
+@media(min-width:1500px){
+  .data{
+    font-size: 20px;
+  }
+}
+
+@media(min-width:1600px){
+  .data{
+    font-size: 21px;
   }
 }
 

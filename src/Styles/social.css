@@ -72,7 +72,7 @@ body{
 
   @media(min-width:1440px){
       .social-detail{
-        font-size: 18px;
+        font-size: 24px;
       }
       .detail-spe{
         margin-left: 30px;
@@ -86,8 +86,18 @@ body{
       }
       .vertical-line{
         border-left: 2px solid white;
-        height: 330px;
+        height: 510px;
         margin-left: 10px;
         padding-left: 15px;
       }
   }
+
+  @media(min-width:1500px){
+  
+    .vertical-line{
+      border-left: 2px solid white;
+      height: 470px;
+      margin-left: 10px;
+      padding-left: 15px;
+    }
+}

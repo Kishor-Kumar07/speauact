@@ -16,7 +16,7 @@ function Contact() {
                     <h1 className="header">Contact Us</h1>
                 </Col>
             </Row>
-            <Row style={{margin:'0px',alignItems:'center'}}>
+            <Row style={{margin:'0px',alignItems:'center',paddingTop:"20px"}}>
                 <Col md={6}>
                     <div className="address">
                     <span>
@@ -51,17 +51,17 @@ function Contact() {
                     </Col>
                     <Col md={6}>
                         <div className="contact">
-                            <label><b>Name</b></label>
+                            <label className="address"><b>Name</b></label>
                             <br />
                             <input type="text" name="name" placeholder="e.g., John Lee"/>
                             <br />
                             <br />
-                            <label><b>Email Address</b></label>
+                            <label className="address"><b>Email Address</b></label>
                             <br />
                             <input type="text" name="name" placeholder="johnlee@gmail.com"/>
                             <br />
                             <br />
-                            <label><b>Message</b></label>
+                            <label className="address"><b>Message</b></label>
                             <br />
                             <input type="textarea" name="name" placeholder="Type your message here"/>
                             <br />
@@ -70,6 +70,7 @@ function Contact() {
                          </div>
                     </Col>
                 </Row>
+                <Row style={{paddingBottom:"20px"}}></Row>
             </div>
         )
     }

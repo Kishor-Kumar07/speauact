@@ -57,7 +57,7 @@ function Core() {
                       </span>
                 </Col>
                 </Row>
-                <Row style={{margin:'0px',textAlign:'center'}}>
+                <Row className="core-img" style={{margin:'0px',textAlign:'center'}}>
                 <Col md={3} className="images " >
                   <img src={benjamin}/>
                   <br />

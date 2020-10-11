@@ -45,7 +45,7 @@ import '../Styles/App.css'
                    <span>One Petro</span>
                 </Col>
                 </Row>
-                <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
+                <Row style={{margin:'0px',alignItems:'center',textAlign:'center',paddingBottom:"35px"}}>
                 <Col md={3} className="images ">
                    <img src={emonitos} />
                    <br />

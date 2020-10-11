@@ -17,23 +17,24 @@ function Publications() {
                 </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center'}}>
-                <Col md={2} className="pimages">
-                <img src={neo}/>
+                <Col sm={12} md={2} className="pimages" style={{textAlign:"center"}}>
+                <img width="100%" src={neo}/>
                 </Col>
-                <Col md={2} className="pimages ">
-                <img src={sun}/>
+                <Col sm={12} md={2} className="pimages " style={{textAlign:"center"}}>
+                <img width="100%" src={sun}/>
                 </Col>
-                <Col md={2} className="pimages ">
-                <img src={Friday}/>
+                <Col sm={12} md={2} className="pimages " style={{textAlign:"center"}}>
+                <img width="100%" src={Friday}/>
                 </Col>
-                <Col md={2} className="pimages ">
-                <img src={Monday}/>
+                <Col sm={12} md={2} className="pimages " style={{textAlign:"center"}}>
+                <img width="100%" src={Monday}/>
                 </Col>
-                <Col md={2} className="pimages ">
-                <img src={Sunday}/>
+                <Col sm={12} md={2} className="pimages " style={{textAlign:"center"}}>
+                <img width="100%" src={Sunday}/>
                 </Col>
                 </Row>
-            <div >
+                <div style={{paddingLeft:"50px",paddingRight:"50px"}}>
+            <div>
                 <h2><b>Neoteric News</b></h2>
                 <h5 className="content">(Since March 26, 2020)</h5>
                 <br />
@@ -84,7 +85,7 @@ function Publications() {
                     engineering and enhances the skills in solving reservoir engineering problems and maximizing recoverable reserves.</h5>
             </div>
             <br /><br />
-            <h2 style={{paddingLeft:'15%',paddingRight:'15%'}} className="content"><b>All our periodicals will be published in our Social Media
+            <h2 style={{marginLeft:'15%',marginRight:'15%'}} className="content"><b>All our periodicals will be published in our Social Media
                 Platforms viz. Facebook, Instagram, LinkedIn and Twitter.</b></h2>
             <br />
             <div className="content">
@@ -119,6 +120,7 @@ function Publications() {
                     <b>@spe.auact</b>
                 </Col>
             </Row>
+            </div>
             </div>
         </div>
     )

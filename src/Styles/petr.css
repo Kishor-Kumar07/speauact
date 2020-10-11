@@ -16,6 +16,15 @@ body{
     }
   }
 
+  @media(min-width:360px){
+    .picture1{
+      margin-left: 90px;
+    }
+    .picture2{
+        margin-left: 30px;
+      }
+  }
+
   @media(min-width:400px){
     .picture1{
       margin-left: 110px;
@@ -28,6 +37,15 @@ body{
     .picdetails{
       width: 100%;
     }
+  }
+
+  @media(min-width:425px){
+    .picture1{
+      margin-left: 125px;
+    }
+    .picture2{
+        margin-left: 60px;
+      }
   }
 
   @media(min-width:500px){
@@ -125,6 +143,6 @@ body{
         margin:0px;
       }
     .picdetails{
-      font-size: 20px;
+      font-size: 24px;
     }
   }
