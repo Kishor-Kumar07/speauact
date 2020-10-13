@@ -10,6 +10,12 @@ body{
 .contact-img{
   padding-right: 20px;
 }
+.copy-line{
+    border-left: 2px solid black;
+    height: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+}
 
 @media(min-width:320px){
   .address{

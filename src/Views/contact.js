@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row,Col} from 'reactstrap'
+import {Row,Col, Input,Label, Button} from 'reactstrap'
 import '../Styles/contact.css';
 import fb from '../Images/Group 57.png'
 import instagram from '../Images/Group 54.png'
@@ -51,24 +51,31 @@ function Contact() {
                     </Col>
                     <Col md={6}>
                         <div className="contact">
-                            <label className="address"><b>Name</b></label>
+                            <Label style={{borderRadius:"20px"}} className="address"><b>Name</b></Label>
                             <br />
-                            <input type="text" name="name" placeholder="e.g., John Lee"/>
-                            <br />
-                            <br />
-                            <label className="address"><b>Email Address</b></label>
-                            <br />
-                            <input type="text" name="name" placeholder="johnlee@gmail.com"/>
+                            <Input type="text" name="name" placeholder="e.g., John Lee"/>
                             <br />
                             <br />
-                            <label className="address"><b>Message</b></label>
+                            <Label className="address"><b>Email Address</b></Label>
                             <br />
-                            <input type="textarea" name="name" placeholder="Type your message here"/>
+                            <Input type="text" name="name" placeholder="johnlee@gmail.com"/>
                             <br />
                             <br />
-                            <input type="submit" />
+                            <Label className="address"><b>Message</b></Label>
+                            <br />
+                            <Input type="textarea" name="name" placeholder="Type your message here"/>
+                            <br />
+                            <br />
+                            <Button className="btn btn-info">Submit</Button>
                          </div>
                     </Col>
+                </Row>
+                <Row style={{textAlign:"center"}}>
+                    <Col><span style={{paddingRight:"10px"}}>{'\u2B24'}</span>&copy;SPEAUACTSC 2020 <span className="copy-line"></span>All rights reserved  <span style={{paddingLeft:"10px"}}>{'\u2B24'}</span></Col>
+                   
+                   
+                   
+                 
                 </Row>
                 <Row style={{paddingBottom:"20px"}}></Row>
             </div>

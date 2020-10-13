@@ -16,6 +16,7 @@ import { Carousel } from 'react-responsive-carousel';
 import sir1 from '../Images/IMG_0106.png'
 import sir2 from '../Images/IMG_9815.png'
 import pic from '../Images/IMG_9821.png'
+import spe from '../Images/spe.png'
 import '../Styles/App.css'
 import { Row,Col,Button, Navbar,Nav,NavItem,NavLink,Input } from 'reactstrap'
 import {Link} from 'react-scroll'
@@ -48,7 +49,10 @@ class App extends Component{
       <div className="bg">
             <Row style={{margin:'0px'}}>
               <Col>
-                <h1 style={{textAlign:"right",paddingRight:"20px"}}  className="top-title">AC Tech,Anna University SPE Student Chapter</h1>
+              
+              </Col>
+              <Col sm={12} md={8}>
+                <h1 style={{textAlign:"center"}} className="top-title">AC Tech,Anna University SPE Student Chapter</h1>
               </Col>
             </Row>
             <Row style={{margin:'0px'}}>
@@ -101,8 +105,6 @@ class App extends Component{
       <Sponsor />
       <Event/>
       <div id="contact"><Contact/></div>
-     
-      
     </div>
     
     )

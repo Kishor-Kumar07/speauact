@@ -128,9 +128,8 @@ body {
     padding-top: 20px;
   }
   .top-title{
-    padding-top: 65px;
+    padding-top: 60px;
   }
-
 }
 
 @media(min-width:360px){
@@ -247,7 +246,7 @@ body {
     top: 130px;
   }
   .top-title{
-    padding-top: 0px;
+    padding-top:0px;
   }
 }
 
