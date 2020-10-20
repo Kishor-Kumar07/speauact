@@ -48,8 +48,8 @@ class App extends Component{
       <div id="home">
       <div className="bg">
             <Row style={{margin:'0px'}}>
-              <Col>
-              
+              <Col sm={12} md={4}>
+                  <img className="spe-img" src={spe}/>
               </Col>
               <Col sm={12} md={8}>
                 <h1 style={{textAlign:"center"}} className="top-title">AC Tech,Anna University SPE Student Chapter</h1>
@@ -91,7 +91,7 @@ class App extends Component{
             </Carousel>
             </Col>
             </Row>
-
+           
         </div>
       <div id="aboutus"><Aboutus/></div>
        <Mission/>

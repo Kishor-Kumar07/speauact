@@ -7,7 +7,7 @@ import '../Styles/App.css'
  function Aboutus() {
     return (
         <section id="aboutus">
-            <Row style={{margin:'0px'}}>
+            <Row className="abt-spc" style={{margin:'0px'}}>
                 <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"black"}}>
                     <h1 className="header">About US</h1>
                </Col>

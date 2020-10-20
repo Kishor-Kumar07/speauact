@@ -21,6 +21,7 @@ body {
   background-color: white;
   position: relative;
   padding: 0%;
+  margin:0%;
 }
 .bm-item {
   display: inline-block;
@@ -124,11 +125,13 @@ body {
     left: 265px;
     top: 26px;
   }
-  .carousel{
-    padding-top: 20px;
-  }
   .top-title{
-    padding-top: 60px;
+    padding-top: 10px;
+  }
+  .spe-img{
+    width: 100%;
+   padding-top: 50px;
+   margin:0%;
   }
 }
 
@@ -243,10 +246,15 @@ body {
     width: 36px;
     height: 30px;
     left: 730px;
-    top: 130px;
+    top: 140px;
   }
   .top-title{
-    padding-top:0px;
+    padding-top:10px;
+  }
+  .spe-img{
+    padding-top: 8px;
+    width:50%;
+    margin-left: 50px;
   }
 }
 
@@ -255,8 +263,8 @@ body {
     position: absolute;
     width: 36px;
     height: 30px;
-    left: 725px;
-    top: 130px;
+    left: 740px;
+    top: 138px;
   }
 }
 
@@ -266,7 +274,7 @@ body {
     width: 36px;
     height: 30px;
     left: 790px;
-    top: 130px;
+    top: 142px;
   }
 }
 
@@ -276,7 +284,10 @@ body {
     width: 36px;
     height: 30px;
     left: 845px;
-    top: 82px;
+    top: 154px;
+  }
+  .top-title{
+    padding-top:18px;
   }
 }
 
@@ -286,7 +297,7 @@ body {
     width: 36px;
     height: 30px;
     left: 870px;
-    top: 82px;
+    top: 148px;
   }
 }
 
@@ -296,7 +307,10 @@ body {
     width: 36px;
     height: 30px;
     left: 895px;
-    top: 82px;
+    top: 152px;
+  }
+  .top-title{
+    padding-top:22px;
   }
 }
 
@@ -306,7 +320,7 @@ body {
     width: 36px;
     height: 30px;
     left: 925px;
-    top: 82px;
+    top: 152px;
   }
 }
 
@@ -316,7 +330,7 @@ body {
     width: 36px;
     height: 30px;
     left: 960px;
-    top: 82px;
+    top: 152px;
   }
 }
 
@@ -326,7 +340,10 @@ body {
     width: 36px;
     height: 30px;
     left: 1110px;
-    top: 82px;
+    top: 178px;
+  }
+  .top-title{
+    padding-top:34px;
   }
 }
 
@@ -336,7 +353,10 @@ body {
     width: 36px;
     height: 30px;
     left: 1180px;
-    top: 82px;
+    top: 190px;
+  }
+  .top-title{
+    padding-top:52px;
   }
 }
 
@@ -346,7 +366,10 @@ body {
     width: 36px;
     height: 30px;
     left: 1350px;
-    top: 82px;
+    top: 210px;
+  }
+  .top-title{
+    padding-top:56px;
   }
 }
 
@@ -356,8 +379,17 @@ body {
     width: 36px;
     height: 30px;
     left: 1420px;
-    top: 82px;
+    top: 115px;
   }
+  .top-title{
+    padding-top:22px;
+  }
+  .spe-img{
+    width: 100px;
+    padding-top: 15px;
+    margin-left:350px;
+  }
+  
 }
 
 @media(min-width:1600px){
@@ -366,6 +398,6 @@ body {
     width: 36px;
     height: 30px;
     left: 1480px;
-    top: 82px;
+    top: 116px;
   }
 }

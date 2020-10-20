@@ -49,24 +49,26 @@ function Contact() {
                     <img src={twitter} className="contact-img"/>
                     </div>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} >
                         <div className="contact">
-                            <Label style={{borderRadius:"20px"}} className="address"><b>Name</b></Label>
+                            <Label className="address"><b>Name</b></Label>
                             <br />
-                            <Input type="text" name="name" placeholder="e.g., John Lee"/>
+                            <Input style={{borderRadius:"20px"}} type="text" name="name" placeholder="e.g., John Lee"/>
                             <br />
                             <br />
                             <Label className="address"><b>Email Address</b></Label>
                             <br />
-                            <Input type="text" name="name" placeholder="johnlee@gmail.com"/>
+                            <Input style={{borderRadius:"20px"}} type="text" name="name" placeholder="johnlee@gmail.com"/>
                             <br />
                             <br />
                             <Label className="address"><b>Message</b></Label>
                             <br />
-                            <Input type="textarea" name="name" placeholder="Type your message here"/>
+                            <Input style={{borderRadius:"20px"}} type="textarea" name="name" placeholder="Type your message here"/>
                             <br />
                             <br />
-                            <Button className="btn btn-info">Submit</Button>
+                            <div style={{textAlign:"center"}}>
+                            <Button style={{borderRadius:"20px"}} className="btn btn-info">Submit</Button>
+                            </div>
                          </div>
                     </Col>
                 </Row>
