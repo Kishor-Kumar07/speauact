@@ -18,45 +18,49 @@ function Core() {
     return (    
         <div id="core">   
             <Row style={{margin:'0px'}}>  
-              <Col sm={12} md={12} lg={12} style={{color:"black",backgroundColor:"rgb(204,204,0)",marginBottom:"20px"}}>
-                  <h1 className="header">Core Commitee</h1>
-               </Col>
+                <Col sm={12} md={12} lg={12} style={{color:"black",backgroundColor:"rgb(204,204,0)",marginBottom:"20px"}}>
+                    <h1 className="headers">Core Commitee</h1>
+                </Col>
             </Row>
-            <Row className="images" style={{margin:'0px'}}>
-                <Col md={2} >
-                  <img src={kalai}/>
-                </Col>
-                <Col md={3} className="datas">
-                <span><b>Dr. S. Kalaiselvam
-                      <br />
-                      Head of the Department
-                      <br />
-                      Professor, Anna University
-                      </b>
-                      <br />
-                      Phone: +91 - 44 - 22359220
-                      <br />
-                      E-mail: kalai@annauniv.edu
-                      </span>
-                </Col>
-                  <span><div className="line"></div></span>
-                 <Col md={2} className="images offset-md-1">
-                  <img src={priya}/>
-                </Col>
-                <Col md={3} className="datas">
-                <span><b>Dr. J. Jayapriya
-                      <br />
-                      Faculty Advisor
-                      <br />
-                      Associate Professor, Anna University
-                      </b>
-                      <br />
-                      Phone: +91 9962523696
-                      <br />
-                      E-mail: jayapriyachem@gmail.com
-                      </span>
-                </Col>
-                </Row>
+            <div style={{paddingLeft:"0px",paddingRight:"0px",textAlign:"center"}}>
+                <Row style={{margin:'0px'}}>
+                    <Col md={2}>
+                        <img src={kalai}/>
+                    </Col>
+                    <Col md={3}>
+                    <span><b>Dr. S. Kalaiselvam
+                        <br />
+                        Head of the Department
+                        <br />
+                        Professor, Anna University
+                        </b>
+                        <br />
+                        Phone: +91 - 44 - 22359220
+                        <br />
+                        E-mail: kalai@annauniv.edu
+                        </span>
+                    </Col>
+                    <Col md={1}>
+                        <span><div className="line"></div></span>
+                    </Col>
+                    <Col md={2}>
+                    <img src={priya}/>
+                    </Col>
+                    <Col md={3}>
+                    <span><b>Dr. J. Jayapriya
+                        <br />
+                        Faculty Advisor
+                        <br />
+                        Associate Professor, Anna University
+                        </b>
+                        <br />
+                        Phone: +91 9962523696
+                        <br />
+                        E-mail: jayapriyachem@gmail.com
+                        </span>
+                    </Col>
+                    </Row>
+                </div>
                 <Row className="core-img" style={{margin:'0px',textAlign:'center'}}>
                 <Col md={3} className="images " >
                   <img src={benjamin}/>

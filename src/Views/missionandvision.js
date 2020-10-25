@@ -9,16 +9,16 @@ import '../Styles/App.css'
         <div id="mission">
             <Row style={{margin:'0px'}}>
                 <Col sm={12} md={12} lg={12} style={{color:"white",backgroundColor:"darkred"}}>
-                    <h1 className="header">Mission and Vision</h1>
+                    <h1 className="headers">Mission and Vision</h1>
                </Col>
             </Row>
             <Row style={{margin:'0px'}}>
-                <Col sm={12} md={6} lg={6}>
-                    <img src={mission} className="img"/>
+                <Col sm={12} md={5}>
+                    <img src={mission} style={{width:"100%",height:"600px"}}/>
                 </Col>      
-            <Col sm={12} md={6} lg={6} className="data">
+            <Col sm={12} md={7}>
                 <br/>
-                <span>
+                <span className="mission-text">
                 AC Tech, Anna University SPE Student Chapter aspires to open doors to each
                 affiliate, for individual and professional advancements through an amalgamation of
                 events round the year including the Series of Distinguished Lectures by the

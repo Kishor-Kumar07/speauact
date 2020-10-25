@@ -8,64 +8,64 @@ import jpt from '../Images/jpt-e1553695432661.png'
 import emonitos from '../Images/emonitos.png'
 import energy from '../Images/Energy4me_logo_RGB-e1553695950745.png'
 import wiki from '../Images/2016-06_spe101_hero-e1553695617293.png'
-import '../Styles/resource.css'
 import '../Styles/App.css'
+import '../Styles/resource.css'
 
  function Resources() {
     return (
         <div>
             <Row style={{margin:"0px"}}>
                <Col style={{backgroundColor:"darkblue",color:"white"}}>
-                  <h1 className="header">SPE Resources</h1>
+                  <h1 className="headers">SPE Resources</h1>
                </Col>
             </Row>
             <Row style={{margin:'0px',alignItems:'center',justifyContent:'center',textAlign:'center'}}>
-                <Col md={3} className="images">
+                <Col className="resource-img" md={3}>
                    <img src={jpt}/>
                    <br />
                    <br />
                    <span>Journey Of Petroleum Technology</span>
                 </Col>
-                <Col md={3} className="images ">
+                <Col className="resource-img" resource-img md={3}>
                    <img src={way} />
                    <br />
                    <br />
                    <span>THE WAY AHEAD</span>
                 </Col>
-                <Col md={3} className="images ">
+                <Col className="resource-img" md={3}>
                    <img src={energy} />
                    <br />
                    <br />
                    <span>Energy For Me</span>
                 </Col>
-                <Col md={3} className="images ">
+                <Col className="resource-img" md={3}>
                    <img src={onepetro} />
                    <br />
                    
                    <span>One Petro</span>
                 </Col>
                 </Row>
-                <Row style={{margin:'0px',alignItems:'center',textAlign:'center',paddingBottom:"35px"}}>
-                <Col md={3} className="images ">
+                <Row style={{margin:'0px',alignItems:'center',textAlign:'center'}}>
+                <Col className="resource-img" md={3}>
                    <img src={emonitos} />
                    <br />
                    
                    <span>SPE e-mentoring Program</span>
                 </Col>
-                <Col md={3} className="images ">
+                <Col className="resource-img" md={3}>
                    <img src={wiki} />
                    <br />
                    
                    <span>PetroWiki</span>
                 </Col>
-                <Col md={3} className="images">
+                <Col className="resource-img" md={3}>
                    <img src={connect} />
                    <br />
                    <br />
                    <br />
                    <span>SPE connect</span>
                 </Col>
-                <Col md={3} className="images ">
+                <Col className="resource-img" md={3}>
                    <img src={webinars} />
                    <br />
                    <br />

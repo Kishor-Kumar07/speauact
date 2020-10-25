@@ -9,15 +9,19 @@ import '../Styles/App.css'
         <div id="petrovision" style={{background:"black"}}>
             <Row style={{margin:'0px'}}>
                 <Col md={12} md={12} lg={12} style={{color:"gold",backgroundColor:"black"}}>
-                    <h1 className="header">Petrovision</h1>
+                    <h1 className="headers">Petrovision</h1>
                 </Col>
             </Row>
             <Row style={{margin:'0px'}}>
-                <Col sm={12} md={6} >
-                    <img src={petrovision} className="pic"/>
-                </Col>
+                
+                    <Col sm={12} md={6} >
+                    <div className="petrovision-img">
+                        <img src={petrovision} className="petro"/>
+                        </div>
+                    </Col>
+                
                 <Col sm={12} md={6}>
-                    <p className="detail"><span className="offset-md-2 span">P</span>etrovision is a National Level Technical
+                    <p className="petrovision-text"><span className="offset-md-2 span">P</span>etrovision is a National Level Technical
                     Symposium conducted <b>by AC Tech, Anna University SPE
                     Student Chapter, Department of Applied Science and
                     Technology, Anna University</b> and it will be held over a period of
@@ -37,7 +41,11 @@ import '../Styles/App.css'
                     </p>
                 </Col>
             </Row>
-            
+            <Row style={{margin:'0px'}}>
+                <Col md={12} md={12} lg={12}>
+                    <hr style={{backgroundColor:'white'}}/>
+                </Col>
+            </Row>
         </div>
     )
 }

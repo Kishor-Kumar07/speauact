@@ -1,4 +1,15 @@
-body{
-    margin: 0px;
-  }
-  
+.resource-img{
+    padding:30px;
+}
+.sponsor-img{
+    padding:20px;
+}
+.event-img{
+    padding:35px;
+}
+.contact-img{
+    padding: 10px;
+}
+.list{
+    text-align: center;
+}

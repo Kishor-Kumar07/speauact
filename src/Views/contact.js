@@ -13,12 +13,12 @@ function Contact() {
             <br/>
             <Row style={{margin:'0px'}}>
                 <Col md={12} md={12} lg={12} style={{color:"white",backgroundColor:"lightblue"}}>
-                    <h1 className="header">Contact Us</h1>
+                    <h1 className="headers">Contact Us</h1>
                 </Col>
             </Row>
-            <Row style={{margin:'0px',alignItems:'center',paddingTop:"20px"}}>
+            <Row style={{margin:'0px',alignItems:'center'}}>
                 <Col md={6}>
-                    <div className="address">
+                    <div style={{paddingLeft:"20px"}}>
                     <span>
                     <h2><b>Our Address:</b></h2>
                     AC Tech, Anna University SPE Student Chapter,
@@ -43,25 +43,25 @@ function Contact() {
                     </span>
                     <br />
                     <br />
-                    <img src={fb} className="contact-img"/>
-                    <img src={instagram} className="contact-img"/>
-                    <img src={linkedin} className="contact-img"/>
-                    <img src={twitter} className="contact-img"/>
+                    <img className="contact-img" src={fb}/>
+                    <img className="contact-img" src={instagram}/>
+                    <img className="contact-img" src={linkedin}/>
+                    <img className="contact-img" src={twitter}/>
                     </div>
                     </Col>
-                    <Col md={6} >
-                        <div className="contact">
-                            <Label className="address"><b>Name</b></Label>
+                    <Col md={6}>
+                        <div style={{paddingTop:"50px"}}>
+                            <Label><b>Name</b></Label>
                             <br />
                             <Input style={{borderRadius:"20px"}} type="text" name="name" placeholder="e.g., John Lee"/>
                             <br />
                             <br />
-                            <Label className="address"><b>Email Address</b></Label>
+                            <Label><b>Email Address</b></Label>
                             <br />
                             <Input style={{borderRadius:"20px"}} type="text" name="name" placeholder="johnlee@gmail.com"/>
                             <br />
                             <br />
-                            <Label className="address"><b>Message</b></Label>
+                            <Label><b>Message</b></Label>
                             <br />
                             <Input style={{borderRadius:"20px"}} type="textarea" name="name" placeholder="Type your message here"/>
                             <br />
@@ -73,11 +73,9 @@ function Contact() {
                     </Col>
                 </Row>
                 <Row style={{textAlign:"center"}}>
-                    <Col><span style={{paddingRight:"10px"}}>{'\u2B24'}</span>&copy;SPEAUACTSC 2020 <span className="copy-line"></span>All rights reserved  <span style={{paddingLeft:"10px"}}>{'\u2B24'}</span></Col>
-                   
-                   
-                   
-                 
+                    <Col>
+                        <span style={{paddingRight:"10px"}}>{'\u2B24'}</span>&copy;SPEAUACTSC 2020 All rights reserved  <span style={{paddingLeft:"10px"}}>{'\u2B24'}</span>
+                    </Col>
                 </Row>
                 <Row style={{paddingBottom:"20px"}}></Row>
             </div>
